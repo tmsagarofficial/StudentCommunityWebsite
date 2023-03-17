@@ -1,0 +1,119 @@
+[
+	{   "image": "/images/team/2.jpg",
+		"name": "Sanjay Kumar", 
+		"designation": " HOD (ECE)",
+		"qualification": "M.Tech.(VTU, BELGAUM, KARNATAKA)<br>  B.Tech.(IETE, DELHI)",
+		"specialization": "",
+		"email": "<a href='mailto:skdalal.vlsi@gmail.com' target='_blank'>skdalal.vlsi@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Sanjay_Kumar_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": " Dr. Vibhakar Shrimali",
+		"designation": "Associate Professor",
+		"qualification": "Ph.D. (IIT Roorkee)<br>M.E.(DCE Delhi)<br> B.E.(JNV University Jodhpur)",
+		"specialization": "Signal and Image Processing",
+		"email": "<a href='mailto:vibhakar.shrimali@gmail.com' target='_blank'>vibhakar.shrimali@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Dr_Vibhakar_Shrimali.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"naM. E.": "Dr. Krishna Singh",
+		"designation": "Associate Professor",
+		"qualification": "Ph. D. (IIT Rorkee)<br>M.Tech (MNNIT Allahabad)<br> B.E. (Electronics)",
+		"specialization": "Vehicular Adhoc Networks, Sensor Networks",
+		"email": "<a href='mailto:singhkrishna5@gmail.com' target='_blank'>singhkrishna5@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Dr_Krishna_Singh_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Abdul Rehman",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech. (MDU Rohtak)<br>B.Tech (Dr. B R Ambedkar University)",
+		"specialization": "Electronics and Communication",
+		"email": "<a href='mailto:rehmangbpec@gmail.com' target='_blank'>rehmangbpec@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/ABDUL_REHMAN_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"image": "/images/team/2.jpg",
+		"name": "Ms. Aman Saini",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech. (LPU Phagwara)<br> B.Tech (PTU Jalandar)",
+		"specialization": "",
+		"email": "<a href='mailto:aman.saini17@gmail.com' target='_blank'>aman.saini17@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Aman_Saini.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Chandra Mohan Dharmapuri",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech (BSIT Chevella Rangareddy)<br> B.Tech. (Jatipita College of Engineering, Adilabad)",
+		"specialization": "VLSI, Communication",
+		"email": "<a href='mailto:chandu.dharmapuri@gmail.com' target='_blank'>chandu.dharmapuri@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/ChandraMohan_Dharmapuri_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Deepak Sant",
+		"designation": "Assistant Professor",
+		"qualification": "Ph. D. (Pursuing from IIT Bombay)<br>M.Tech (SRM University - Katankulathur)<br> B.Tech (University of Rajasthan - Jaipur)",
+		"specialization": "GNSS, INS, KF, Communication Systems,<br> Multisensor Integrated System, <br>Navigation, Matlab, Simulink,<br> Python",
+		"email": "<a href='mailto:deepaksantgbpec@gmail.com' target='_blank'>deepaksantgbpec@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Deepak_Sant_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Ms. Mamta",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech.(GGSIPU)<br>B.Tech.(UPTU Lucknow)",
+		"specialization": "",
+		"email": "<a href='mailto:mamtasinha15@gmail.com' target='_blank'>mamtasinha15@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Mamta_sinha_ECE.docx'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Padam Saini",
+		"designation": "Assistant Professor",
+		"qualification": "Ph.D (Pursuing) <br>M.Tech.(DIET Jhansi)<br> B.Tech. (KNMIET university, Modinagar)",
+		"specialization": "Microstrip Circuits and Antennas ",
+		"email": "<a href='mailto:padam@gbpec.edu.in' target='_blank'>padam@gbpec.edu.in </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Padam_singh_ECE.docx'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Rohit Anand",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech.(PTU Jalandhar)<br> B.Tech. (MDU Rohtak)",
+		"specialization": "Electronics & Communication",
+		"email": "<a href='mailto:roh_anand@rediffmail.com' target='_blank'>roh_anand@rediffmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/Rohit_Anand_ECE.pdf'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Dr. Smriti Agarwal' />",
+		"designation": "Assistant Professor",
+		"qualification": "Ph. D. (IIT Roorkee)<br>M.Tech.(UPTU Lucknow)<br> B.Tech. (Dr. R M L Avadh University, Faizabad)",
+		"specialization": "Millimeter and microwave Radar imaging,<br> Through Wall Imaging, Stand-off target detection and Identification,<br> Electromagnetic Field & Wave Propagation, <br>High Frequency Antenna Design",
+		"email": "<a href='mailto:smritiagarwal127@gmail.com' target='_blank'>smritiagarwal127@gmail.com </a>",
+		"profile": "<a href='#'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Mr. Vadthya Bheemudu",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech.(MNNIT ALLAHABAD)<br> B.Tech.(Osmania Unversity Hyderabad)",
+		"specialization": "Vehicular Adhoc Networks, Sensor Networks",
+		"email": "<a href='mailto:bheema.vadthya@gmail.com' target='_blank'>bheema.vadthya@gmail.com </a>",
+		"profile": "<a href='#'>See Profile</a>"
+	},
+	{
+		"image": "/images/team/2.jpg",
+		"name": "Ms. Venkateshwari P",
+		"designation": "Assistant Professor",
+		"qualification": "M.Tech.(Anna University)<br> B.Tech. (Anna University)",
+		"specialization": "",
+		"email": "<a href='mailto:srivenkateshwari90@gmail.com' target='_blank'>srivenkateshwari90@gmail.com </a>",
+		"profile": "<a href='assets/images/Faculty_Profile/ECE/P_Venkateshwari_ECE.pdf'>See Profile</a>"
+	}
+]

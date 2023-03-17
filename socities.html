@@ -11,7 +11,7 @@
 		<title>Societies</title>
 
 		<!-- Favicon -->
-		<link rel="icon" type="image/x-icon" href="/OOC/favicons/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="favicons/favicon.ico">
 
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Main style sheet -->
@@ -54,7 +54,7 @@
 			-->
 			<header class="theme-main-header">
 				<div class="container">
-					<a href="index.html" class="logo float-left tran4s"><img src="/OOC/cryto.png" height=180 width=160 alt="Logo"></a>
+					<a href="index.html" class="logo float-left tran4s"><img src="cryto.png" height=180 width=160 alt="Logo"></a>
 					
 					<!-- ========================= Theme Feature Page Menu ======================= -->
 					<nav class="navbar float-right theme-main-menu">
@@ -82,7 +82,7 @@
 							<li class="dropdown-holder"><a href="#">EXPLORE</a>
 								<ul class="sub-menu">
 									<li><a href="commzone.html" class="tran3s">Common-Zone</a></li>
-									<li><a href="/OOC/quiz/quiz.html" class="tran3s">Games</a></li>
+									<li><a href="quiz/quiz.html" class="tran3s">Games</a></li>
 									<li><a href="socities.html" class="tran3s">Clubs</a></li>
 									<li><a href="projects.html" class="tran3s">Projects</a></li>
 									<li><a href="resources.html" class="tran3s">Resources</a></li>
@@ -300,69 +300,84 @@
 				<ul class="m-b-70">
 					<li class="txt14 m-b-14">
 						<i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
-						G B Pant Government Engineering College 110020 - New Delhi
+						V4-TECH - BANGALORE
 					</li>
 
 					<li class="txt14 m-b-14">
 						<i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
-						+91-11-26382314 
+						+91-1122334455 
 					</li>
 <br>
 					<li class="txt14 m-b-14">
 						<i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
-						principal@gbpec.edu.in
+						v4tech@gmail.com
 					</li>
 				</ul>
 
-				<!-- - -->
-				<h4 class="txt13 m-b-32">
-					Opening Times
-				</h4>
-
-				<ul>
-					<li class="txt14">
-						09:30 AM – 5:00 PM
-					</li>
-
-					<li class="txt14">
-					Working Days
-					</li>
-				</ul>
+				
 			</div>
 
-			<div class="col-sm-6 col-md-4 p-t-50">
-				<!-- - -->
-				<h4 class="txt13 m-b-33">
-					Useful Links
-				</h4>
-
-				<div class="m-b-25">
-			<!--		<span class="fs-13 color2 m-r-5">
-						<i class="fa fa-twitter" aria-hidden="true"></i>
-					</span>-->
-					<a href="#" class="txt15">
-						Anti Ragging Notification-UGC 
-					</a>
-					<a href="#" class="txt15">
-						Online Anti Ragging Affidavit 
-					</a>
-					<a href="#" class="txt15">
-						Online Anti Ragging Complain 
-					</a>
-					<a href="#" class="txt15">
-						UGC Scholarships and Fellowships 
-					</a><br>
-					<a href="#" class="txt15">
-						Educational Loan 
-					</a>
-					<a href="#" class="txt15">
-						Guru Gobind Singh Indraprastha University 
-	
-				</div>
-			</div>
+			
 		
 
 
+
+
+
+
+			<script>
+				(function(){
+					"use strict";
+					
+					//alert('It is best to view this on desktop.');
+					
+					const closeViewer = function(){
+						let overlay = document.getElementsByClassName('overlay')[0],
+							window = document.getElementsByClassName('window')[0];
+	
+						overlay.classList.remove('show');
+						window.classList.remove('show');
+	
+						setTimeout(function(){
+							overlay.parentNode.removeChild(overlay);
+							window.parentNode.removeChild(window);
+						}, 200);
+					}
+	
+					const imageViewer = function(){
+						let overlay = document.createElement('div'),
+							window = document.createElement('div'),
+							img = document.createElement('img'),
+							hint = document.createElement('span');
+	
+						overlay.classList.add('overlay');
+						window.classList.add('window');
+						
+						img.src = this.style.backgroundImage.slice(4, -1).replace(/"/g, '');
+						hint.className = 'description';
+						hint.appendChild(document.createTextNode('Click / Tap outside of the image to close the preview.'));
+						
+						window.appendChild(img);
+						window.appendChild(hint);
+	
+						document.getElementsByClassName('viewer')[0].appendChild(overlay);
+						document.getElementsByClassName('viewer')[0].appendChild(window);
+	
+						overlay.addEventListener('click', closeViewer);
+	
+						setTimeout(function(){
+							overlay.classList.add('show');
+							window.classList.add('show');
+						}, 10);
+					}
+	
+					let images = document.querySelectorAll('.vishal');
+					images.forEach(function(img){
+						img.addEventListener('click', imageViewer); 
+					});
+				})();
+			</script>
+	
 
 
 
@@ -394,73 +409,58 @@
 					
 					
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/4.jpg" alt="GALLERY">
 					</a>
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-						<img src="images/blog/4.jpg" alt="GALLERY">
-					</a>
-
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-						<img src="images/blog/5.jpg" alt="GALLERY">
-					</a>
-
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/4.jpg" alt="GALLERY">
 					</a>
 
-
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/4.jpg" alt="GALLERY">
 					</a>
 
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/4.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/4.jpg" alt="GALLERY">
 					</a>
 
-					<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
 						<img src="images/blog/5.jpg" alt="GALLERY">
 					</a>
 
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
+						<img src="images/blog/4.jpg" alt="GALLERY">
+					</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+					<a class="item-gallery-footer wrap-pic-w" href="#" data-lightbox="gallery-footer">
+						<img src="images/blog/5.jpg" alt="GALLERY">
+					</a>
 
 
 
@@ -472,6 +472,63 @@
 	</div>
 
 
+
+
+
+
+
+	<style>
+
+
+
+		.overlay {
+			background: rgba(0,0,0,.85);
+			bottom: 0;
+			left: 0;
+			opacity: 0;
+			position: fixed;
+			right: 0;
+			transition: opacity 100ms ease-in-out;
+			top: 0;
+			z-index: 10000;
+		}
+		
+		.window {
+			left: 50%;
+			opacity: 0;
+			padding: 2rem;
+			position: fixed;
+			top: 50%;
+			transform: translate(-50%, -50%) scale(.75);
+			transition-property: opacity, transform;
+			transition: 450ms cubic-bezier(.5, 0, .25, 1.5);
+			z-index: 10010;
+		}
+		
+		.window img {
+			border-radius: .25rem;
+			display: block;
+			height: auto;
+			margin-bottom: .5rem;
+			max-width: 20rem;
+		}
+		
+		.overlay.show {
+			opacity: .85;
+		}
+		
+		.window.show {
+			opacity: 1;
+			transform: translate(-50%, -50%) scale(1);
+		}
+		
+		
+		
+		
+		
+		</style>
+		
+		
 		
 
 
@@ -480,21 +537,7 @@
 
 
 
-	<div class="end-footer bg2">
-		<div class="container">
-			<div class="flex-sb-m flex-w p-t-22 p-b-22">
-			<!--	<div class="p-t-5 p-b-5">
-					<a href="#" class="fs-15 c-white"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-					<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
-					<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
-				</div>
-
-				<div class="txt17 p-r-20 p-t-5 p-b-5">
-					Copyright &copy; 2018 All rights reserved  |  This template is made with <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-				</div>-->
-			</div>
-		</div>
-	</div>
+	
 </footer>
 
 
@@ -520,65 +563,31 @@
 
 
 
+
+
+
+
+
+
+			
 			<!-- =============================================
 				Loading Transition
 			============================================== -->
 			<div id="loader-wrapper">
 				<div id="preloader_1">
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	            </div>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 
-			
-	        <!-- Scroll Top Button -->
-			<button class="scroll-top tran3s p-color-bg">
-				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
-			</button>
 
-
-
-
-		<!-- Js File_________________________________ -->
-
-		<!-- j Query -->
-		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
-
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
-
-		<!-- Vendor js _________ -->
-		
-		<!-- revolution -->
-		<script src="vendor/revolution/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/revolution/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.video.min.js"></script>
-
-		<!-- Google map js -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=goMap" type="text/javascript"></script> <!-- Gmap Helper -->
-		<script src="vendor/gmaps.min.js"></script>
-		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- mixitUp -->
-		<script type="text/javascript" src="vendor/jquery.mixitup.min.js"></script>
-		<!-- Progress Bar js -->
-		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
-		<!-- Validation -->
-		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
-		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
-
-
-		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
-		<script type="text/javascript" src="js/map-script.js"></script>
+   <!-- Scroll Top Button -->
+   <button class="scroll-top tran3s p-color-bg">
+	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+</button>
 
 
 
@@ -589,9 +598,5 @@
 
 
 
-
-
-
-</div>
 </body>
 </html>
