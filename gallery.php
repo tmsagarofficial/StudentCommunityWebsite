@@ -24,14 +24,7 @@
         <script type="text/javascript" src="js/simple-lightbox.js"></script>
        <link rel="stylesheet" type="text/css" href="css/gallery.css"> 
 
-  <!-- Fix Internet Explorer ______________________________________-->
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="vendor/html5shiv.js"></script>
-    <script src="vendor/respond.js"></script>
-  <![endif]-->
-    
 </head>
 <style>
   @media (max-width: 650px){
@@ -133,25 +126,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <style>
         @media (max-width: 650px){
           .logo{
@@ -161,31 +135,6 @@
         }
         
           </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -261,26 +210,12 @@
 
 
 
-
-
-
 <style type="text/css">
 .gallerycontainer .gallery a  {
 
   display: block !important;
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -361,25 +296,6 @@
 		
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			<div class="col-sm-6 col-md-4 p-t-50">
 				<!-- - -->
 				<h4 class="txt13 m-b-38">
@@ -446,87 +362,21 @@
 					</a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 				</div>
 
 			</div>
 		</div>
 	</div>
-
-
-		
-
-
-
-
-
 
 
 	<div class="end-footer bg2">
 		<div class="container">
 			<div class="flex-sb-m flex-w p-t-22 p-b-22">
-			<!--	<div class="p-t-5 p-b-5">
-					<a href="#" class="fs-15 c-white"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-					<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
-					<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
-				</div>
-
-				<div class="txt17 p-r-20 p-t-5 p-b-5">
-					Copyright &copy; 2018 All rights reserved  |  This template is made with <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-				</div>-->
+			
 			</div>
 		</div>
 	</div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 			<!-- =============================================
@@ -544,7 +394,7 @@
 
 			
 
-	        <!-- Scroll Top Button -->
+	    
 			<button class="scroll-top tran3s p-color-bg">
 				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 			</button>
@@ -552,22 +402,8 @@
 
 
 
-		<!-- Js File_________________________________ -->
-
-	
-
-		<!-- Bootstrap JS 
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
--->
-		<!-- Vendor js _________ -->
-		
-		
-
-
-		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script> 
 
-	<!--	<script type="text/javascript" src="js/map-script.js"></script>  -->
 
 
 
