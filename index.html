@@ -25,6 +25,15 @@
 		
 			
 	</head>
+	<script>
+		function GET(){
+			const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+        const product = urlParams.get("name");
+		console.log(product);
+		document.getElementById("Hello").innerHTML="Welcome "+ product;
+		}
+		</script>
 <style>
 .logo{
 		width:60px;
@@ -75,6 +84,7 @@
 					   <!-- Collect the nav links, forms, and other content for toggling -->
 					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 					     <ul class="nav navbar-nav">
+						    <div id="Hello" onclick="GET()"><b>WHO ARE YOU?</b></div>
 					       	<li class="active" href="index.html"><a>HOME</a></li>
 							<li><a href="about.html">ABOUT</a></li>
 							<li><a href="notice.html">NOTICES</a></li>
@@ -783,4 +793,6 @@ $(document).ready(function(){
 
 		</div> <!-- /.main-page-wrapper -->
 	</body>
+
+	
 </html>
