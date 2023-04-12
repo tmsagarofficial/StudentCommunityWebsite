@@ -21,10 +21,10 @@
 		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
 	</div>
 	<span>or use your email for registration</span>
-	<input type="text" name="name" placeholder="Name">
-	<input type="email" name="email" placeholder="Email">
-	<input type="password" name="password" placeholder="Password">
-	<button onclick="singup()">SignUp</button>
+	<input type="text" name="name" placeholder="Name" id="rn">
+	<input type="email" name="email" placeholder="Email" id="re">
+	<input type="password" name="password" placeholder="Password" id="rp">
+	<button onclick="register()">SignUp</button>
 </form>
 </div>
 <div class="form-container sign-in-container">
@@ -36,11 +36,11 @@
 		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
 	</div>
 	<span>or use your account</span>
-	<input type="email" id ="em" name="email" placeholder="Email">
-	<input type="password" id="pass" name="password" placeholder="Password">
+	<input type="email" id ="se" name="email" placeholder="Email">
+	<input type="password" id="sp" name="password" placeholder="Password">
 	<a href="#">Forgot Your Password</a>
 
-	<button id="button123" onclick="signup()">Sign In</button>
+	<button id="button123" onclick="login()">Sign In</button>
 	</form>
 </div>
 <div class="overlay-container">
@@ -335,8 +335,132 @@ input {
 	width: 40px;
 }
 </style>
+        <script>
+             var emailArray=[];
+        var passwordArray=[];
+        var nameArray=[];
+
+        var loginBox = document.getElementById("login");
+        var regBox = document.getElementById("register");
+        var forgetBox = document.getElementById("forgot");
+
+        var loginTab = document.getElementById("lt");
+        var regTab = document.getElementById("rt");
+
+        function regTabFun(){
+            event.preventDefault();
+
+            regBox.style.visibility="visible";
+            loginBox.style.visibility="hidden";
+            forgetBox.style.visibility="hidden";
+
+            regTab.style.backgroundColor="rgb(12, 132, 189)";
+            loginTab.style.backgroundColor="rgba(11, 177, 224, 0.82)";
+        }
+        function loginTabFun(){
+            event.preventDefault();
+
+            regBox.style.visibility="hidden";
+            loginBox.style.visibility="visible";
+            forgetBox.style.visibility="hidden";
+
+            loginTab.style.backgroundColor="rgb(12, 132, 189)";
+            regTab.style.backgroundColor="rgba(11, 177, 224, 0.82)";
+        }
+        function forTabFun(){
+            event.preventDefault();
+
+            regBox.style.visibility="hidden";
+            loginBox.style.visibility="hidden";
+            forgetBox.style.visibility="visible";
+
+            regTab.style.backgroundColor="rgba(11, 177, 224, 0.82)";
+            loginTab.style.backgroundColor="rgba(11, 177, 224, 0.82)";
+
+        }
 
 
+        function register(){
+            event.preventDefault();
 
+            var email = document.getElementById("re").value;
+            var password = document.getElementById("rp").value;
+            var name = document.getElementById("rn").value;
 
+            if (email == ""){
+                alert("Email required.");
+                return ;
+            }
+            else if (password == ""){
+                alert("Password required.");
+                return ;
+            }
+            else if(emailArray.indexOf(email) == -1){
+                emailArray.push(email);
+                passwordArray.push(password);
+                nameArray.push(name);
 
+                alert(email + "  Registered Succesfully. \n Login Now to Continue");
+
+                document.getElementById("re").value ="";
+                document.getElementById("rp").value="";
+                document.getElementById("rrp").value="";
+            }
+            else{
+                alert(email + " is already Registered.");
+                return ;
+            }
+        }
+        function login(){
+            event.preventDefault();
+
+            var email = document.getElementById("se").value;
+            var password = document.getElementById("sp").value;
+
+            var i = nameArray.indexOf(email);
+
+            if(nameArray.indexOf(email) == -1){
+                if (email == ""){
+                    alert("Email required.");
+                    return ;
+                }
+                alert("Email does not exist.");
+                return ;
+            }
+            else if(passwordArray[i] != password){
+                if (password == ""){
+                    alert("Password required.");
+                    return ;
+                }
+                alert("Password does not match.");
+                return ;
+            }
+            else {
+                
+                alert(email + " logged in Succesfully \n Welcome to Student-Community-website.");
+                
+                location.href = '/index.html?name='+email;
+                document.getElementById("se").value ="";
+                document.getElementById("sp").value="";
+                return ;
+            }
+
+        }
+        function forgot(){
+            event.preventDefault();
+
+            var email = document.getElementById("fe").value;
+
+            if(emailArray.indexOf(email) == -1){
+                if (email == ""){
+                    alert("Email required.");
+                    return ;
+                }
+                alert("Email does not exist.");
+                return ;
+            }
+
+            alert("Email sent to your registered email check it in 24hr. \n Thanks");
+            document.getElementById("fe").value ="";
+        }
+        </script>
